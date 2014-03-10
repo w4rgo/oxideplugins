@@ -1,7 +1,5 @@
 PLUGIN.Title = "Stats"
-PLUGIN.Description = "Stores stats from the players - version 1.3.1"
-PLUGIN.Author = "W4rGo"
-PLUGIN.Version = "1.3.1"
+PLUGIN.Description = "Stores stats from the players - version 1.3"
 --By W4rGo 
 
 function PLUGIN:Init()

@@ -1,0 +1,35 @@
+r1
+- [ADDED]   First public release.
+- [ADDED]   You can finally see loading lua errors in the editor after a plugin is loaded.
+- [ADDED]   New plugin hooks can be defined in an external file now.
+
+r2
+- [FIXED]   long comment syntax --[[ ]] now gets highlighted correctly. Thanks to Ross for reporting that.
+- [ADDED]   Ox(ide)2 now has an icon. Thanks to Ross.
+- [ADDED]   You can now reference a class in templates.xml from hooks.xml
+- [CHANGED] Plugin -> Load is now Plugin -> Execute due to external feedback.
+- [ADDED]   Separator between array elements in Hook Parameter window for better readability.
+- [ADDED]   BooleanParameter, you can now define hooks with a boolean parameter.
+- [ADDED]   NumberParameter, you can now define hooks with a number parameter.
+- [ADDED]   Initial declarations for all hooks documented in the oxide wiki.
+- [ADDED]   Capability  to create a new plugin file from template. Put your own templates in Templates/Files/ for the editor to pick them up.
+- [CHANGED] Initial lua loading process is now split up into multiple files from the Scripts/ directory.
+- [ADDED]   Lua now also has the capability to instantiate an template. FindNetUserByName now uses that template instantiation feature.
+- [ADDED]   Basic autocompletion for global tables (e.g. rust, PLUGIN) is now triggered upon entering ".".
+- [ADDED]   Added button to toggle of autocompletion as it is still in the early stages and could crash the editor.
+- [ADDED]   Added basic autocompletion for hooks. if you type "PLUGIN:" you can let the IDE autocomplete to a full function with all documented parameters.
+
+r3
+- [FIXED]   Crash if you choose an existing file during creating a new one. It will now ask you if you want to override. Thanks to Erates.
+- [ADDED]   Displaying of the file name and a has changed flag in the window title.
+- [ADDED]   Toolbar with common operations (Save, Undo/Redo, Cut/Copy/Paste)
+- [CHANGED] Updated api to Oxide 1.8 
+- [CHANGED] Plugin Editor is now not shown as long as there is no plugin loaded.
+- [ADDED]   Added check for unsaved changes to warn the user.
+- [ADDED[   Added about dialog to have a new place for the version display.
+- [ADDED]   Tooltips with descriptions from hooks.xml and template.xml.
+- [ADDED]   Text search can now be used in the editor.
+- [ADDED]   Documentation can now be directly opened from the editor by pressing F1.
+- [ADDED]   Added a menu entry that takes you to the rust website.
+- [ADDED]   About dialog now has two links to bitbucket and the rustoxide.com forum page of this project.
+- [ADDED]   Preliminary implementation of all functions of rust.* and util.*

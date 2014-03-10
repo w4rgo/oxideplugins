@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ParameterTemplateStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Templates>
+    <AParameterTemplate xsi:type="ObjectParameterTemplate"  name="NetUser">
+      <Fields>
+        <AParameterTemplate xsi:type="StringParameterTemplate" name="displayName" default="myUser">
+          <Description>The display name of the user</Description>
+        </AParameterTemplate>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="ClientLogin">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="BasicDoor">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="TakeDamage">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="DamageEvent">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="UnityEngine.Vector3">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="BlueprintDataBlock">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="IBlueprintItem">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="Controllable">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="Inventory">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="IInventoryItem">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="ResearchToolItem&lt;&gt;">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="Arg">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="PlayerClient">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="RustProto.Avatar">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="CraftingInventory">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+
+    <AParameterTemplate xsi:type="ObjectParameterTemplate" name="StructureMaster">
+      <Fields>
+      </Fields>
+    </AParameterTemplate>
+  </Templates>
+</ParameterTemplateStorage>
